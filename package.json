@@ -13,9 +13,16 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/Haktuna/wplace-autocheck/issues"
   },
-  "homepage": "https://github.com/Haktuna/wplace-autocheck#readme"
+  "homepage": "https://github.com/Haktuna/wplace-autocheck#readme",
+  "devDependencies": {
+    "@biomejs/biome": "2.2.0"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "sharp": "^0.34.3"
+  }
 }
