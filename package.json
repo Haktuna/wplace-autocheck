@@ -2,9 +2,9 @@
   "name": "wplace-autocheck",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./src/bot.js",
   "scripts": {
-    "test": "node ./index.js"
+    "test": "node ./src/bot.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,8 @@
     "@biomejs/biome": "2.2.0"
   },
   "dependencies": {
+    "discord.js": "^14.22.1",
+    "dotenv": "^17.2.1",
     "node-fetch": "^3.3.2",
     "sharp": "^0.34.3"
   }
